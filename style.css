@@ -496,9 +496,9 @@ to{
 .project-card {
   background-color: #2c2c2c;
   border-left: 5px solid #00bcd4;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 10px;
-  max-width: 300px;
+  max-width: 350px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -507,6 +507,13 @@ to{
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 174, 255, 0.4);
+}
+.project-img img{
+  max-width: 346px;
+  height:auto;
+}
+.project-text{
+  padding: 20px;
 }
 
 .project-card h3 {
